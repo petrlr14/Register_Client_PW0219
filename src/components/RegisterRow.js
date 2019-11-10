@@ -8,7 +8,7 @@ class RegisterRow extends React.Component{
             <tr className="table-active">
                 <th scope='row'>{student.carnet}</th>
                 <td>{student.schedule}</td>
-                <td>{student.datetime.toLocaleString()}</td>
+                <td>{new Date(student.datetime).toLocaleString()}</td>
                 <td>{parseLate(student.isLate)}</td>
                 <td>
                     <button 
