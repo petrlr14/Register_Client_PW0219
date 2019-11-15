@@ -2,6 +2,7 @@
   "name": "register_client",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://douglashdezt.github.io/register_client",
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
